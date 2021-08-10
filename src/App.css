@@ -1,0 +1,47 @@
+
+.todoApp{
+  height: 100vw;
+  width: 100%;
+  background-color: antiquewhite;
+  content:'center';
+}
+
+.heading{
+
+  text-align: center;
+  color:rgb(2, 20, 78);
+  padding-top: 20px;
+}
+
+.todo{
+  
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  margin:20px;
+  padding:10px;
+  background-color:azure;
+  border-radius:10px;
+}
+.todo p{
+  width: 88%;
+}
+
+.status button{
+  margin:5px;
+  border-radius:100px;
+  border:1px solid whitesmoke;
+}
+
+.todoForm{
+  padding-top:30px;
+  margin:10px;
+  border-radius:10px;
+}
+input{
+  padding:20px;
+  border-radius:10px;
+  border:0;
+  width:100%;
+  outline:0;
+}
